@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07446ABD222021B700DA5455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07446ABC222021B700DA5455 /* AppDelegate.swift */; };
+		07446ABF222021B700DA5455 /* OnBoardingInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07446ABE222021B700DA5455 /* OnBoardingInstructions.swift */; };
+		07446AC2222021B700DA5455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07446AC0222021B700DA5455 /* Main.storyboard */; };
+		07446AC4222021B800DA5455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07446AC3222021B800DA5455 /* Assets.xcassets */; };
+		07446AC7222021B800DA5455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07446AC5222021B800DA5455 /* LaunchScreen.storyboard */; };
+		07446ACF2220829900DA5455 /* MainGravityHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07446ACE2220829800DA5455 /* MainGravityHomeScreen.swift */; };
+		07715079224F59CD00C13A3F /* HowToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07715078224F59CD00C13A3F /* HowToUse.swift */; };
+		078040DD22425C7000DDD0C6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078040DC22425C7000DDD0C6 /* AboutViewController.swift */; };
+		07863576224E536900B29A6B /* WallpaperPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863575224E536900B29A6B /* WallpaperPickerView.swift */; };
+		07E116B62258C54600F65B42 /* EffectsFloatingPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E116B52258C54600F65B42 /* EffectsFloatingPanelController.swift */; };
+		07FD46F822268EE400D4ABB9 /* SettingsAndAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD46F722268EE400D4ABB9 /* SettingsAndAboutController.swift */; };
+		0F6416B52EB4C2C0A8358A23 /* Pods_Graviteaser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F13D2CA6EA46D7814D5334 /* Pods_Graviteaser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07446AB9222021B700DA5455 /* Graviteaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graviteaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07446ABC222021B700DA5455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07446ABE222021B700DA5455 /* OnBoardingInstructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingInstructions.swift; sourceTree = "<group>"; };
+		07446AC1222021B700DA5455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07446AC3222021B800DA5455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07446AC6222021B800DA5455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07446AC8222021B800DA5455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07446ACE2220829800DA5455 /* MainGravityHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGravityHomeScreen.swift; sourceTree = "<group>"; };
+		07715078224F59CD00C13A3F /* HowToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUse.swift; sourceTree = "<group>"; };
+		078040DC22425C7000DDD0C6 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		07863575224E536900B29A6B /* WallpaperPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperPickerView.swift; sourceTree = "<group>"; };
+		07BF445A222EED7F00C2CF1D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		07BF445C222EED8500C2CF1D /* Graviteaser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Graviteaser.entitlements; sourceTree = "<group>"; };
+		07E116B52258C54600F65B42 /* EffectsFloatingPanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsFloatingPanelController.swift; sourceTree = SOURCE_ROOT; };
+		07FD46F722268EE400D4ABB9 /* SettingsAndAboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAndAboutController.swift; sourceTree = "<group>"; };
+		81F13D2CA6EA46D7814D5334 /* Pods_Graviteaser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graviteaser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3123420105BC4681C047E3 /* Pods-Graviteaser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graviteaser.debug.xcconfig"; path = "Target Support Files/Pods-Graviteaser/Pods-Graviteaser.debug.xcconfig"; sourceTree = "<group>"; };
+		A3926D7259522E38AE0DCAEA /* Pods-Graviteaser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graviteaser.release.xcconfig"; path = "Target Support Files/Pods-Graviteaser/Pods-Graviteaser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07446AB6222021B700DA5455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6416B52EB4C2C0A8358A23 /* Pods_Graviteaser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07446AB0222021B700DA5455 = {
+			isa = PBXGroup;
+			children = (
+				07446ABB222021B700DA5455 /* Graviteaser */,
+				07446ABA222021B700DA5455 /* Products */,
+				07BF4459222EED7F00C2CF1D /* Frameworks */,
+				6196B203C3FDA09AB7E9CA6A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		07446ABA222021B700DA5455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07446AB9222021B700DA5455 /* Graviteaser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07446ABB222021B700DA5455 /* Graviteaser */ = {
+			isa = PBXGroup;
+			children = (
+				07BF445C222EED8500C2CF1D /* Graviteaser.entitlements */,
+				07446ABC222021B700DA5455 /* AppDelegate.swift */,
+				07E116B52258C54600F65B42 /* EffectsFloatingPanelController.swift */,
+				07446ABE222021B700DA5455 /* OnBoardingInstructions.swift */,
+				07446AC0222021B700DA5455 /* Main.storyboard */,
+				07FD46F722268EE400D4ABB9 /* SettingsAndAboutController.swift */,
+				07446AC3222021B800DA5455 /* Assets.xcassets */,
+				07446AC5222021B800DA5455 /* LaunchScreen.storyboard */,
+				07446AC8222021B800DA5455 /* Info.plist */,
+				07446ACE2220829800DA5455 /* MainGravityHomeScreen.swift */,
+				078040DC22425C7000DDD0C6 /* AboutViewController.swift */,
+				07863575224E536900B29A6B /* WallpaperPickerView.swift */,
+				07715078224F59CD00C13A3F /* HowToUse.swift */,
+			);
+			path = Graviteaser;
+			sourceTree = "<group>";
+		};
+		07BF4459222EED7F00C2CF1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BF445A222EED7F00C2CF1D /* StoreKit.framework */,
+				81F13D2CA6EA46D7814D5334 /* Pods_Graviteaser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6196B203C3FDA09AB7E9CA6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A3123420105BC4681C047E3 /* Pods-Graviteaser.debug.xcconfig */,
+				A3926D7259522E38AE0DCAEA /* Pods-Graviteaser.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07446AB8222021B700DA5455 /* Graviteaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07446ACB222021B800DA5455 /* Build configuration list for PBXNativeTarget "Graviteaser" */;
+			buildPhases = (
+				7F5CB64AA7CD542F344686ED /* [CP] Check Pods Manifest.lock */,
+				07446AB5222021B700DA5455 /* Sources */,
+				07446AB6222021B700DA5455 /* Frameworks */,
+				07446AB7222021B700DA5455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graviteaser;
+			productName = Graviteaser;
+			productReference = 07446AB9222021B700DA5455 /* Graviteaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07446AB1222021B700DA5455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Gravity;
+				TargetAttributes = {
+					07446AB8222021B700DA5455 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 07446AB4222021B700DA5455 /* Build configuration list for PBXProject "Graviteaser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07446AB0222021B700DA5455;
+			productRefGroup = 07446ABA222021B700DA5455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07446AB8222021B700DA5455 /* Graviteaser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07446AB7222021B700DA5455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07446AC7222021B800DA5455 /* LaunchScreen.storyboard in Resources */,
+				07446AC4222021B800DA5455 /* Assets.xcassets in Resources */,
+				07446AC2222021B700DA5455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F5CB64AA7CD542F344686ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Graviteaser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07446AB5222021B700DA5455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078040DD22425C7000DDD0C6 /* AboutViewController.swift in Sources */,
+				07FD46F822268EE400D4ABB9 /* SettingsAndAboutController.swift in Sources */,
+				07446ABF222021B700DA5455 /* OnBoardingInstructions.swift in Sources */,
+				07446ABD222021B700DA5455 /* AppDelegate.swift in Sources */,
+				07863576224E536900B29A6B /* WallpaperPickerView.swift in Sources */,
+				07446ACF2220829900DA5455 /* MainGravityHomeScreen.swift in Sources */,
+				07715079224F59CD00C13A3F /* HowToUse.swift in Sources */,
+				07E116B62258C54600F65B42 /* EffectsFloatingPanelController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07446AC0222021B700DA5455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07446AC1222021B700DA5455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07446AC5222021B800DA5455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07446AC6222021B800DA5455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07446AC9222021B800DA5455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07446ACA222021B800DA5455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07446ACC222021B800DA5455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3123420105BC4681C047E3 /* Pods-Graviteaser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Graviteaser/Graviteaser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHGV54L5J3;
+				INFOPLIST_FILE = Graviteaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarGhanem.gravityPrankFunFUN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07446ACD222021B800DA5455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3926D7259522E38AE0DCAEA /* Pods-Graviteaser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Graviteaser/Graviteaser.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHGV54L5J3;
+				INFOPLIST_FILE = Graviteaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarGhanem.gravityPrankFunFUN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07446AB4222021B700DA5455 /* Build configuration list for PBXProject "Graviteaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07446AC9222021B800DA5455 /* Debug */,
+				07446ACA222021B800DA5455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07446ACB222021B800DA5455 /* Build configuration list for PBXNativeTarget "Graviteaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07446ACC222021B800DA5455 /* Debug */,
+				07446ACD222021B800DA5455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07446AB1222021B700DA5455 /* Project object */;
+}
